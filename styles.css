@@ -1,0 +1,75 @@
+body{
+    background-color: #EEF0F4;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+}
+
+.content1 {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gameinfo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 50px;
+    
+}
+
+.playerselection, .computerselection, .score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.playerselection img, .computerselection img {
+    width: auto;
+    height: 200px;
+    padding: 30px;
+}
+
+.scorecount {
+    font-size: 80px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 50px;
+}
+
+.buttons > *{
+    width: auto;
+    height: 200px;
+    padding: 30px;
+    background: #EEF0F4;
+    border-radius: 10px;
+    box-shadow: 7.51px 7.51px 12px #CACCCF, -7.51px -7.51px 12px #FFFFFF;
+}
+
+.pressed {
+    padding-top: 32px;
+    padding-bottom: 28px;
+    background: #EEF0F4;
+    border-radius: 10px;
+    box-shadow: inset 7.51px 7.51px 12px #CACCCF, inset -7.51px -7.51px 12px #FFFFFF;
+}
+
+.results {
+    text-align: center;
+    padding: 50px;
+}
